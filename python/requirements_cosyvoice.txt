@@ -1,0 +1,8 @@
+fastapi>=0.115.2
+uvicorn[standard]>=0.30.1
+python-multipart>=0.0.18
+soundfile>=0.12.1
+numpy>=1.26.0
+av>=13.0.0
+# onnxruntime variant installed conditionally in setup_cosyvoice.sh
+# CosyVoice installed from source in setup_cosyvoice.sh
